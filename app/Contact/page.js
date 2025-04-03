@@ -2,7 +2,7 @@
 import React from 'react'
 import { set, useForm } from "react-hook-form"
 
-const page = () => {
+const Page = () => {
     const {
         register,
         handleSubmit,
@@ -65,4 +65,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

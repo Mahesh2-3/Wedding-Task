@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 import MockData from './MockData.json'
 
-const page = () => {
+const Page = () => {
     const [data, setData] = useState(MockData)
 
     function AnimatedSection({ children, duration = 1, y, x, triggerOnce = true }) {
@@ -73,4 +73,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

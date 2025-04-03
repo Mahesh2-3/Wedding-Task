@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer";
 
-const page = () => {
+const Page = () => {
     const [Data, setData] = useState(MockData)
 
 
@@ -51,4 +51,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
