@@ -5,6 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import MockData from "./MockData.json";
+import Image from "next/image";
 import "./page.css"
 
 export default function Home() {
@@ -54,7 +55,7 @@ export default function Home() {
         <div className="sm:flex block md:justify-between justify-center h-[84vh] pb-10 m-0">
           <div className="hidden md:block">
             <AnimatedSection duration={1} y={-100} x={0} triggerOnce={true}>
-              <img className="h-[640px] w-[160px] " src="left-leaf.png" alt="" />
+              <Image className="h-[640px] w-[160px] " src="left-leaf.png" alt="" />
             </AnimatedSection>
           </div>
           <div className="md:w-[60vw] w-full h-full mt-10 text-center flex gap-4 flex-col justify-evenly items-center text-[#c4811b]">
