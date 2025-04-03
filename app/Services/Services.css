@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .cards{
+        width: 320px;
+        height: fit-content;
+        padding: 10px;
+       }
+    
+}

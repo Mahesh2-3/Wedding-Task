@@ -1,0 +1,53 @@
+[
+    {
+      "title": "🏰 Wedding Venue",
+      "description": "The perfect location for your ceremony and reception, tailored to your dream wedding. Whether you envision a grand ballroom, a romantic garden, or a scenic beachside ceremony, we provide stunning settings that will make your big day unforgettable. 💒✨",
+      "message": "Beautiful venue with amazing ambiance! Highly recommended. - Alice Johnson"
+    },
+    {
+      "title": "🍽️ Catering",
+      "description": "Delicious food and beverages customized to your preferences and guest count. Our chefs create mouth-watering dishes, from elegant plated dinners to extravagant buffets, ensuring every bite is a delight for your guests. 🍷🥂",
+      "message": "The food was fantastic, but service was a bit slow. - Mark Evans"
+    },
+    {
+      "title": "📸 Photo & Videography",
+      "description": "Capture every special moment with professional photography and videography services. Our skilled team ensures you relive your wedding through breathtaking pictures and cinematic videos, preserving memories that last forever. 🎥💖",
+      "message": "Absolutely loved the pictures and videos! Every moment was perfectly captured. - Sarah Williams"
+    },
+    {
+      "title": "🎯 Wedding Planner",
+      "description": "Expert planners to help organize and execute your big day smoothly. From coordinating vendors to managing the timeline, we handle every detail so you can focus on enjoying your celebration stress-free. 📝💍",
+      "message": "The best decision we made! Everything was stress-free and well-organized. - James Anderson"
+    },
+    {
+      "title": "👰 Bridal Attire",
+      "description": "A stunning collection of bridal dresses, accessories, and professional makeup services. Walk down the aisle in a dress that reflects your personality and style, making you feel like a queen on your special day. 💄👑",
+      "message": "Loved my dress, but the fitting took longer than expected. - Emma Roberts"
+    },
+    {
+      "title": "🤵 Groom Attire",
+      "description": "Stylish suits, accessories, and grooming services for the groom. From classic tuxedos to modern styles, we ensure you look dashing and confident as you say 'I do.' 🕴️✨",
+      "message": "The suit was a perfect fit and looked amazing! - Daniel Scott"
+    },
+    {
+      "title": "💌 Wedding Invitations",
+      "description": "Elegant and customized wedding invitations to impress your guests. Choose from a variety of luxurious designs, fonts, and colors to create an invitation that reflects your love story beautifully. ✨🖋️",
+      "message": "The design was lovely, but delivery was slightly delayed. - Olivia Brown"
+    },
+    {
+      "title": "🌸 Wedding Decor",
+      "description": "Transform your venue with breathtaking decorations and floral arrangements. From fairy-tale lighting to stunning centerpieces, we bring your vision to life, creating a magical atmosphere for your big day. 🎀🌿",
+      "message": "Absolutely stunning decor! It made the wedding feel magical. - Sophia Martinez"
+    },
+    {
+      "title": "🎶 Music & Entertainment",
+      "description": "From DJs to live bands, we provide the perfect entertainment for your event. Get ready to dance the night away with electrifying music and performances that keep your guests entertained. 🕺🎤",
+      "message": "The DJ kept the dance floor packed all night! - Michael Thompson"
+    },
+    {
+      "title": "🚗 Transportation",
+      "description": "Luxurious and reliable transportation services for the bride, groom, and guests. Whether you need a classic limousine, a vintage car, or a party bus, we ensure a stylish and smooth ride on your big day. 🎩🛻",
+      "message": "The ride was comfortable, but the driver arrived a little late. - William Harris"
+    }
+  ]
+  

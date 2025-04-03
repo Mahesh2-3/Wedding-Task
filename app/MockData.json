@@ -1,0 +1,73 @@
+[
+    {
+      "service": "Wedding Venue",
+      "rating": 5,
+      "reviewer": "Alice Johnson",
+      "comment": "The venue was absolutely stunning! ",
+      "date": "2024-03-20"
+    },
+    {
+      "service": "Catering",
+      "rating": 4,
+      "reviewer": "John Smith",
+      "comment": "Great food and service, but a little pricey.",
+      "date": "2024-03-18"
+    },
+    {
+      "service": "Photo & Videography",
+      "rating": 5,
+      "reviewer": "Emma Davis",
+      "comment": "Captured every special moment beautifully!",
+      "date": "2024-03-22"
+    },
+    {
+      "service": "Wedding Planner",
+      "rating": 5,
+      "reviewer": "Sophia Wilson",
+      "comment": "Helped us plan our dream wedding stress-free!",
+      "date": "2024-03-15"
+    },
+    {
+      "service": "Bridal Attire",
+      "rating": 4,
+      "reviewer": "Olivia Brown",
+      "comment": "Loved my dress! Could have had more options.",
+      "date": "2024-03-25"
+    },
+    {
+      "service": "Groom Attire",
+      "rating": 5,
+      "reviewer": "James Taylor",
+      "comment": "Perfectly tailored suit, great experience!",
+      "date": "2024-03-19"
+    },
+    {
+      "service": "Wedding Invitations",
+      "rating": 4,
+      "reviewer": "Daniel Martinez",
+      "comment": "Beautiful designs, but took a little long to arrive.",
+      "date": "2024-03-21"
+    },
+    {
+      "service": "Wedding Decor",
+      "rating": 5,
+      "reviewer": "Charlotte Lee",
+      "comment": "Absolutely stunning decorations! Made the venue magical.",
+      "date": "2024-03-16"
+    },
+    {
+      "service": "Music & Entertainment",
+      "rating": 5,
+      "reviewer": "Liam Garcia",
+      "comment": "The DJ was amazing, kept the party going all night!",
+      "date": "2024-03-23"
+    },
+    {
+      "service": "Transportation",
+      "rating": 3,
+      "reviewer": "Emily Rodriguez",
+      "comment": "Good service, but some delays in pickup.",
+      "date": "2024-03-17"
+    }
+  ]
+  

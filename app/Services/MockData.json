@@ -1,0 +1,68 @@
+[
+    {
+        "type": "Wedding Venue",
+        "title": "Luxury Banquet Hall",
+        "description": "A grand venue with elegant interiors, stage setup, and seating for 500+ guests.",
+        "price": 300000
+    },
+    {
+        "type": "Catering",
+        "title": "Royal Wedding Feast",
+        "description": "A gourmet selection of multi-cuisine dishes, live food counters, and dessert stations.",
+        "price": 200000
+    },
+    {
+        "type": "Photography & Videography",
+        "title": "Premium Wedding Photography",
+        "description": "Full-day photography and videography with professional editing and a wedding album.",
+        "price": 150000
+    },
+    {
+        "type": "Wedding Planner",
+        "title": "Complete Wedding Management",
+        "description": "End-to-end wedding planning, vendor coordination, and on-day event execution.",
+        "price": 250000
+    },
+    {
+        "type": "Bridal Attire",
+        "title": "Bridal Elegance Package",
+        "description": "Designer bridal outfit, accessories, premium makeup, and hairstyling.",
+        "price": 100000
+    },
+    {
+        "type": "Groom Attire",
+        "title": "Groom Royal Ensemble",
+        "description": "Customized wedding suit, accessories, and professional styling.",
+        "price": 80000
+    },
+    {
+        "type": "Wedding Invitations",
+        "title": "Elegant Custom Invitations",
+        "description": "Personalized wedding invitations with digital and printed options.",
+        "price": 50000
+    },
+    {
+        "type": "Wedding Decor",
+        "title": "Majestic Wedding Decor",
+        "description": "Floral arrangements, lighting, stage setup, and themed decorations.",
+        "price": 150000
+    },
+    {
+        "type": "Music & Entertainment",
+        "title": "Live Band & DJ Experience",
+        "description": "A live band for the ceremony and a DJ for the reception with a complete sound setup.",
+        "price": 100000
+    },
+    {
+        "type": "Transportation",
+        "title": "Luxury Wedding Transport",
+        "description": "Luxury cars and guest shuttles for the wedding day.",
+        "price": 70000
+    },
+    {
+        "type": "Additional Services",
+        "title": "Fireworks & Special Effects",
+        "description": "Grand entrance fireworks, cold pyros, and a romantic first dance special effect setup.",
+        "price": 60000
+    }
+]
