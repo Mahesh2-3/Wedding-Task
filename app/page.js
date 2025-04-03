@@ -104,7 +104,7 @@ export default function Home() {
             })}
           </div>
         </div>
-        <button className="mx-auto button">
+        <button onClick={Navigation} className="mx-auto button">
           <div className="outline"></div>
           <div className="state state--default">
             <div className="icon">
