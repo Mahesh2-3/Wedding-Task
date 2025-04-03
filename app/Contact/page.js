@@ -1,8 +1,10 @@
 "use client"
 import React from 'react'
 import { set, useForm } from "react-hook-form"
+import { useState } from 'react'
 
 const Page = () => {
+        const [Loading, setLoading] = useState(false)
     const {
         register,
         handleSubmit,
@@ -12,6 +14,8 @@ const Page = () => {
     } = useForm()
 
     const onSubmit = async (data) => {
+                setLoading(true)
+
         const response = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/contact`, {
             method: 'POST',
             headers: {
@@ -27,6 +31,7 @@ const Page = () => {
                     document.querySelector('.message').innerHTML = "Something went wrong, please try again later"
                     document.querySelector('.message').style.color = "red"
                 }
+             setLoading(false)
             })
             .catch(err => console.error("IError:", err));
 
@@ -57,7 +62,10 @@ const Page = () => {
                     {errors.message && <span className='text-red-600'>{errors.message.message}</span>}
 
 
-                    <input className='submit cursor-pointer w-full px-4 py-2 text-xl text-white rounded-md focus:outline-none bg-blue-500' type="submit" />
+                    <input className={`submit ${Loading?"cursor-progress":"cursor-pointer"} w-full px-4 py-2 text-xl text-white rounded-md focus:outline-none bg-blue-500`}
+                    disabled={Loading}
+                    type="submit" 
+                    value={Loading ? ("Loading...") : ("Submit")}/>                    
                     <span className='sm:text-xl text-lg message h-[30px]'></span>
                 </form>
             </div>
