@@ -12,7 +12,7 @@ const page = () => {
     } = useForm()
 
     const onSubmit = async (data) => {
-        const response = await fetch('http://localhost:4000/api/contact', {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/contact`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
