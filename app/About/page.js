@@ -28,9 +28,9 @@ const Page = () => {
 
     return (
         <>
-            <div className='flex justify-center items-center flex-col w-fit overflow-hidden gap-10'>
-                <h1 className='text-4xl  mx-auto w-fit text-center pt-9 px-4 text-[#c4811b] font-bold border-b'>About Us</h1>
-                <div className='md:w-[60%] w-full px-7 text-left'>
+            <div className='flex justify-center items-center flex-col w-full overflow-hidden gap-10'>
+                <h1 className='text-4xl  mx-auto text-center pt-9 px-4 text-[#c4811b] font-bold border-b'>About Us</h1>
+                <div className='md:w-fit w-full px-7 text-left'>
                     <strong className='sm:text-2xl text-lg text-amber-400'>🎉 Welcome to ShadiVibes 💍</strong>
                     <ul className="list-disc">
                         <li>✨ Your perfect wedding partner</li>

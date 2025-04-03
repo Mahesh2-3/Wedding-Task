@@ -55,7 +55,7 @@ export default function Home() {
         <div className="sm:flex block md:justify-between justify-center h-[84vh] pb-10 m-0">
           <div className="hidden md:block">
             <AnimatedSection duration={1} y={-100} x={0} triggerOnce={true}>
-              <Image className="h-[640px] w-[160px] " src="left-leaf.png" alt="" />
+              <Image width={160} height={640} className="h-[640px] w-[160px] " src="/left-leaf.png" alt="" />
             </AnimatedSection>
           </div>
           <div className="md:w-[60vw] w-full h-full mt-10 text-center flex gap-4 flex-col justify-evenly items-center text-[#c4811b]">
@@ -66,7 +66,7 @@ export default function Home() {
             <span className="px-3">Welcome to ShadiVibes – Your Dream Wedding Partner!
               We bring your dream wedding to life with expert planning, stunning decor, top photographers, and personalized bridal services. Let’s make your big day unforgettable!</span>
             <AnimatedSection duration={1} y={0} x={0} triggerOnce={true}>
-              <img className="scale-100  relative md:scale-125" src="wedding.png" alt="" />
+              <Image priority width={512} height={265}  className="scale-100  relative md:scale-125" src="/wedding.png" alt="" />
             </AnimatedSection>
 
 
@@ -74,7 +74,7 @@ export default function Home() {
           </div>
           <div className="hidden md:block">
             <AnimatedSection duration={1} y={-100} x={0} triggerOnce={true}>
-              <img className="h-[640px]  w-[160px] " src="right-leaf.png" alt="" />
+              <Image width={160} height={640} className="h-[640px]  w-[160px] " src="/right-leaf.png" alt="" />
             </AnimatedSection>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <div className='bg-[#F5F5DC] flex flex-col items-center justify-center py-10'>
           <h1 className='text-4xl w-fit  text-center pt-9 px-4 text-[#c4811b] font-bold border-b'>Reviews</h1>
-          <div className='flex w-[80vw] items-center  flex-wrap gap-10 justify-center mt-10'>
+          <div className='flex w-[80%] items-center  flex-wrap gap-10 justify-center mt-10'>
             {Data.map((item, index) => {
               return (
                 <AnimatedSection key={index} duration={1} y={0} x={index % 2 === 0 ? -100 : 100} triggerOnce={true}>

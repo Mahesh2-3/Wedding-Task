@@ -8,15 +8,22 @@ import Image from "next/image";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   useEffect(() => {
-   if (window.innerWidth < 640) {
-      setIsMenuOpen(false);
+    const handleResize = () => {
+      if (window.innerWidth < 640) {
+        setIsMenuOpen(false);
+      }
+      else {
+        setIsMenuOpen(true);
+      }
     }
-    else {
-    setIsMenuOpen(true);
-   }
+    handleResize(); // Set initial state
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+
   }, [])
-  
- 
+
+
 
   const handleClick = () => {
     setIsMenuOpen((prev) => !prev);
@@ -26,7 +33,7 @@ const Navbar = () => {
     <nav className="bg-[#ffe550] px-7 relative h-[8vh] text-[#A0522D] flex justify-between items-center p-4">
       {/* Logo */}
       <div className="h-full flex gap-2 items-center text-4xl font-bold">
-        <Image className="h-full scale-150 w-auto" src="logo.png" alt="" />
+        <Image width={70} height={80} className="h-full scale-150 w-auto" src="/logo.png" alt="logo" />
         SV
       </div>
 
@@ -44,31 +51,31 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link href="/Contact">Contact</Link>
-          
+
         </li>
       </ul>
       <ul
-        className={`navList  w-fit absolute top-[68px] right-3 sm:border-0 border-[1px] bg-[#ffe550] p-5  flex sm:hidden ${  isMenuOpen?  "flex":"hidden"} flex-col gap-2 rounded-md duration-300`}>
-        <li className="nav-item">
+        className={`navList z-50  w-fit absolute top-[68px] right-3 text-center sm:border-0 border-[1px] bg-[#ffe550] p-5  flex sm:hidden ${isMenuOpen ? "flex" : "hidden"} flex-col gap-2 rounded-md duration-300`}>
+        <li onClick={handleClick} className="nav-item">
           <Link href="/">Home</Link>
         </li>
-        <li className="nav-item">
+        <li onClick={handleClick} className="nav-item">
           <Link href="/About">About</Link>
         </li>
-        <li className="nav-item">
+        <li onClick={handleClick} className="nav-item">
           <Link href="/Services">Services</Link>
         </li>
-        <li className="nav-item">
+        <li onClick={handleClick} className="nav-item">
           <Link href="/Contact">Contact</Link>
         </li>
       </ul>
 
-   
 
-        <button onClick={handleClick} className="flex sm:hidden text-[#A0522D]">
-          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
-    
+
+      <button onClick={handleClick} className="flex sm:hidden text-[#A0522D]">
+        {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+      </button>
+
     </nav>
   );
 };

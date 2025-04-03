@@ -28,9 +28,9 @@ const Page = () => {
 
     return (
         <>
-            <div className='flex flex-col w-[100vw] overflow-x-hidden items-center justify-center py-10 bg-[#F5F5DC]'>
+            <div className='flex flex-col w-full overflow-x-hidden items-center justify-center py-10 bg-[#F5F5DC]'>
                 <h1 className='text-4xl text-[#c4811b] font-bold underline underline-offset-2'>Our Services</h1>
-                <div className='flex xl:w-[85%] w-[100%] flex-wrap gap-10 justify-center mt-10'>
+                <div className='flex xl:w-[80%] w-[100%] flex-wrap gap-10 justify-center mt-10'>
                     {Data.map((item, index) => {
                         return (
                             <AnimatedSection key={index} duration={1} y={0} x={index % 2 == 0 ? -100 : 100} triggerOnce={true}>
