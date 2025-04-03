@@ -28,7 +28,7 @@ const Page = () => {
 
     return (
         <>
-            <div className='flex flex-col w-full overflow-x-hidden items-center justify-center py-10 bg-[#F5F5DC]'>
+            <div className='font-[family-name:var(--font-geist-sans)] flex flex-col w-full overflow-x-hidden items-center justify-center py-10 bg-[#F5F5DC]'>
                 <h1 className='text-4xl text-[#c4811b] font-bold underline underline-offset-2'>Our Services</h1>
                 <div className='flex xl:w-[80%] w-[100%] flex-wrap gap-10 justify-center mt-10'>
                     {Data.map((item, index) => {

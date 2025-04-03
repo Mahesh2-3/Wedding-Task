@@ -46,7 +46,7 @@ const Page = () => {
 
     return (
         <>
-            <div className='absolute flex bg-[#F5F5DC] h-[78.1vh] w-full flex-col items-center justify-center py-10 '>
+            <div className='font-[family-name:var(--font-geist-sans)] absolute flex bg-[#F5F5DC] h-[78.1vh] w-full flex-col items-center justify-center py-10 '>
                 <h1 className='text-4xl mb-10 px-5 font-bold border-b'>Contact Us</h1>
                 <form className='flex md:w-[700px] w-[95%]  flex-col  gap-4' onSubmit={handleSubmit(onSubmit)}>
                     <input className='bg-transparent w-full px-4 py-2 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder="Name" {...register("name", { required: "This field is required", })} />

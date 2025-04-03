@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#ffe550] px-7 relative h-[8vh] text-[#A0522D] flex justify-between items-center p-4">
+    <nav className="font-[family-name:var(--font-geist-sans)] bg-[#ffe550] px-7 relative h-[8vh] text-[#A0522D] flex justify-between items-center p-4">
       {/* Logo */}
       <div className="h-full flex gap-2 items-center text-4xl font-bold">
         <Image width={70} height={80} className="h-full scale-150 w-auto" src="/logo.png" alt="logo" />
